@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, usedPrefix }) => {
-    let res = await fetch('https://meme-api.com/')
+    let res = await fetch('https://meme-api.com/gimme')
     if (!res.ok) throw await res.text()
     let json = await res.json()
     if (!json.url) throw 'Error!'
