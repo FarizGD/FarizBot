@@ -1,3 +1,4 @@
-FarizBot-MD (it works in termux!)
+**FarizBot**
+The bot that i hardcoded.
 
-By FarizGD
+*works on termux*
